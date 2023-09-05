@@ -12,29 +12,34 @@
     font-family: Arial, Helvetica, sans-serif;
 } 
 
-html, body {
-    height: 100%;
+body {
+    height: 600px;
     width: 100%;
     background-color: rgb(15, 28, 24);
     overflow-x: hidden;
-    overflow-y: hidden; 
+    overflow-y: hidden;     
+   }
+
+   html {
+    height: 600px;
+    width: 100%;
    }
 
 body {
     background: url('../Fundo\ 1.jpeg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
-       
+     
    }
 
    main {
     background: #11403b76;
-    transform: translate(50%, -91.02%);
+    transform: translate(55%, -306.4px);
     border-radius: 1%;
     padding-top: 2px;
     background-size: cover;
-    width: 50%;
-height: 674.8px;
+    width:50%;
+height: 700px;
        }
 
        section#serv {
@@ -60,11 +65,15 @@ height: 674.8px;
         transition: transform 0.5s, border 0.5s;
         }
 
+    section {
+    height: 300px;
+    }
+
 section#eu {
 position: absolute;
 top: 50%;
 left: 50%;
-transform: translate(-140px, -220px);
+transform: translate(-107px, -200px);
 background: no-repeat;
 -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.497)); 
 filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.403));
@@ -75,18 +84,18 @@ section#iphone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-160px, -300px);
+    transform: translate(-130px, -300px);
     background: no-repeat;
         }
 
     section#redes-sociais {
         text-align: right;
-        padding: 5px;
+        padding: 3px;
         
     }
     
     section#redes-sociais img {
-     width: 65px;
+     width: 39px;
      margin: 10px;
      border-radius: 50%;
      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
@@ -103,8 +112,9 @@ section#iphone {
     nav {
         background-color: #11403b76;
         width: 100%;
-        padding: 25px;
+        padding: 20px;
         text-align: center;
+      
     }
     
     nav a {
@@ -113,8 +123,8 @@ section#iphone {
         font-weight: bold;
         text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.499);
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-        padding: 20px;
+        font-size: 12px;
+        padding: 12px;
     }
     
     nav a.in {
@@ -133,30 +143,24 @@ section#iphone {
         
      }
 
-     nav > a:hover {
+          nav > a:hover {
         color: #ffffff;
         text-shadow: 1px 1px 5px rgb(255, 255, 255);
-        font-size: 35px;
+        font-size: 20px;
         transition: 0.5s;
         padding: 25px;
         }
 
-        #tt1 {
-            color: rgb(255, 255, 255);
-            text-shadow: 1px 1px 1px #00000048;
-            font-family: var(--fonte-destaque);
-        font-size: 15px;
-        letter-spacing: 0px;
-        word-spacing: 0px;
-        font-weight: normal;
-        text-decoration: none;
-        font-style: normal;
-        font-variant: normal;
-        text-transform: none;
-        padding-bottom: 5px;
-        text-align: right;
+#tt1 {
+    text-decoration: none;
+    color: rgb(225, 242, 241);
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.499);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 3px;
 
-        }
+}
 
         #logo {
             position: relative;
@@ -166,15 +170,16 @@ section#iphone {
             filter: contrast(1500%);
                     }
 #rodape {
-transform: translate(-15px, -60px);
+transform: translate(-16px, -65px);
 filter: brightness(60%);
 filter: contrast(100%);
 }
 
 #st {
-    transform: translate(-149px, -287px);
+    transform: translate(-116px, -291px);
 position: absolute;
 background-repeat: no-repeat;
 top: 50%;
 left: 50%;
 }
+
