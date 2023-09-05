@@ -73,7 +73,7 @@ section#eu {
 position: absolute;
 top: 50%;
 left: 50%;
-transform: translate(-87px, -110px);
+transform: translate(-87px, -100px);
 background: no-repeat;
 -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.497)); 
 filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.403));
@@ -84,7 +84,7 @@ section#iphone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-105px, -180px);
+    transform: translate(-105px, -170px);
     background: no-repeat;
         }
 
@@ -175,7 +175,7 @@ filter: contrast(100%);
 }
 
 #st {
-    transform: translate(-96px, -171px);
+    transform: translate(-96px, -161px);
 position: absolute;
 background-repeat: no-repeat;
 top: 50%;
