@@ -169,7 +169,7 @@ section#iphone {
             filter: contrast(1500%);
                     }
 #rodape {
-transform: translate(-12px, -75px);
+transform: translate(-12px, -85px);
 filter: brightness(60%);
 filter: contrast(100%);
 }
