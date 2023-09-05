@@ -102,7 +102,7 @@ section#iphone {
 
     nav {
         background-color: #11403b76;
-        width: 100%;
+        width: 100vw;
         padding: 25px;
         text-align: center;
     }
