@@ -77,6 +77,18 @@ transform: translate(-107px, -200px);
 background: no-repeat;
 -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.497)); 
 filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.403));
+animation: fadeInAnimation ease 2s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+    opacity: 0.3;
+    }
+    100% {
+    opacity: 1;        }
+    
 
 }
 
