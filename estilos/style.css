@@ -19,7 +19,7 @@ html, body {
    
    }
 
-body {
+html, body {
     background: url('../Fundo\ 1.jpeg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
