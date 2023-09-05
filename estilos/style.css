@@ -73,7 +73,7 @@ section#eu {
 position: absolute;
 top: 50%;
 left: 50%;
-transform: translate(-120px, -200px);
+transform: translate(-80px, -90px);
 background: no-repeat;
 -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.497)); 
 filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.403));
@@ -84,7 +84,7 @@ section#iphone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-140px, -220px);
+    transform: translate(-105px, -180px);
     background: no-repeat;
         }
 
@@ -169,13 +169,13 @@ section#iphone {
             filter: contrast(1500%);
                     }
 #rodape {
-transform: translate(-15px, -129px);
+transform: translate(-19px, -73px);
 filter: brightness(60%);
 filter: contrast(100%);
 }
 
 #st {
-    transform: translate(-128px, -210px);
+    transform: translate(-96px, -172px);
 position: absolute;
 background-repeat: no-repeat;
 top: 50%;
