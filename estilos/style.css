@@ -12,29 +12,33 @@
     font-family: Arial, Helvetica, sans-serif;
 } 
 
-html, body {
-    height: 100%;
+body {
+    height: 560px;
     width: 100%;
     background-color: rgb(15, 28, 24);
-   
-   }
-
-html, body {
-    background: url('../Fundo\ 1.jpeg') no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     overflow-x: hidden;
     overflow-y: hidden; 
    }
 
+   html {
+    height: 500px;
+   }
+
+body {
+    background: url('../Fundo\ 1.jpeg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     
+   }
+
    main {
     background: #11403b76;
-    transform: translate(50%, -72.74%);
+    transform: translate(50%, -64.8%);
     border-radius: 1%;
     padding-top: 2px;
     background-size: cover;
     width: 50%;
-height: 600.2px;
+height: 470.2px;
        }
 
        section#serv {
@@ -60,11 +64,15 @@ height: 600.2px;
         transition: transform 0.5s, border 0.5s;
         }
 
+    section {
+    height: 300px;
+    }
+
 section#eu {
 position: absolute;
 top: 50%;
 left: 50%;
-transform: translate(-120px, -245px);
+transform: translate(-120px, -200px);
 background: no-repeat;
 -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.497)); 
 filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.403));
@@ -75,7 +83,7 @@ section#iphone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-140px, -285px);
+    transform: translate(-140px, -220px);
     background: no-repeat;
         }
 
@@ -166,7 +174,7 @@ filter: contrast(100%);
 }
 
 #st {
-    transform: translate(-128px, -275px);
+    transform: translate(-128px, -210px);
 position: absolute;
 background-repeat: no-repeat;
 top: 50%;
