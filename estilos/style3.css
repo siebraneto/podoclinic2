@@ -38,7 +38,7 @@
 
            nav {
             background-color: #11403b76;
-            width: auto;
+            width: 110%;
             padding: 20px;
             text-align: center;
       
@@ -86,7 +86,7 @@
                 color: rgb(5, 81, 5);
                 text-shadow: 1px 1px 1px #0adf4385;
                 font-family: 'Dancing Script', cursive;
-            font-size: 50px;
+            font-size: 250%;
             letter-spacing: 0px;
             word-spacing: 0px;
             color: #042926;
