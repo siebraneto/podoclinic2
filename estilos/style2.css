@@ -114,11 +114,62 @@ text-transform: none;
 width: 70%;
 transform: translate(22%, 0px);
 text-shadow: 1px 1px 1px #0adf4385;
+line-height: 2;
 }
 
 .palavras {
     background-color: #ffffff87;
     width: 80%;
     transform: translate(14%, 0px);
-    padding-bottom: 250px;
+    padding-bottom: 251px;
+   }
+
+div img {
+    transform: translate(30%, 0px);
+    width: 100%;
+    margin: 10px;
+    border-radius: 15%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
+        }
+
+#textogrid {
+    width: 10%;
+    color: rgb(5, 81, 5);
+    text-shadow: 1px 1px 1px #0adf4385;
+    font-family: 'Dancing Script', cursive;
+    font-size: 85%;
+word-spacing: 0px;
+color: #042926;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-bottom: 25px;
+padding-left: 100%;
+transform: translate(-30%, 0px);
+text-align: center;
+margin: 5%;
+line-height: 1.5;
 }
+
+.row:hover {
+    box-sizing: content-box;
+    transform: scale(120%);
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.615);
+    transition: transform 0.5s, border 0.5s;
+        }
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+{
+    .column {
+      width: 100%;
+    }
+  }
+
