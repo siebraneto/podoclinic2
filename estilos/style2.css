@@ -137,7 +137,7 @@ div img {
     color: rgb(5, 81, 5);
     text-shadow: 1px 1px 1px #0adf4385;
     font-family: 'Dancing Script', cursive;
-    font-size: 85%;
+    font-size: 70%;
 word-spacing: 0px;
 color: #042926;
 font-weight: normal;
@@ -155,12 +155,16 @@ line-height: 1.5;
 
 .row:hover {
     box-sizing: content-box;
-    transform: scale(120%);
+    transform: scale(180%);
+    transform: translate(-4.5%);
     border-radius: 2%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.615);
     transition: transform 0.5s, border 0.5s;
-        }
-
+    font-size: 118%;
+    width: 110%;
+    background-color: #ffffff9f;
+    }
+    
 @media screen and (max-width: 500px) {
     .column {
       width: 100%;

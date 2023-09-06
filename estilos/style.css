@@ -31,7 +31,7 @@ body {
    }
 
    main {
-    background: #11403b76;
+    background: #ffffffc3;
     transform: translate(52%, -612px);
     border-radius: 1%;
     padding-top: 2px;
@@ -171,6 +171,14 @@ filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.403));
     
     nav a.sv {
         border-right: 0.5px solid #11403b8d;
+        padding: 25px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        
+     }
+
+     nav a.ct {
+        border-right: 0.5px solid #11403b00;
         padding: 25px;
         padding-bottom: 3px;
         padding-top: 3px;
