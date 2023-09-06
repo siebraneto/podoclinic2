@@ -13,15 +13,13 @@
 } 
 
 body {
-    height: 560px;
+    height: 600px;
     width: 100%;
     background-color: rgb(15, 28, 24);
-    overflow-x: hidden;
-    overflow-y: hidden; 
-   }
+       }
 
    html {
-    height: 500px;
+    height: 600px;
     width: 100%;
    }
 
@@ -34,12 +32,12 @@ body {
 
    main {
     background: #11403b76;
-    transform: translate(50%, -64.8%);
+    transform: translate(52%, -612px);
     border-radius: 1%;
     padding-top: 2px;
     background-size: cover;
-    width: 50%;
-height: 470.2px;
+    width:50%;
+height: 700px;
        }
 
        section#serv {
@@ -73,10 +71,21 @@ section#eu {
 position: absolute;
 top: 50%;
 left: 50%;
-transform: translate(-87px, -100px);
+transform: translate(-107px, -200px);
 background: no-repeat;
 -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.497)); 
 filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.403));
+animation: fadeInAnimation ease 2s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    from { opacity: 0;
+        left: 40%;}
+    to {opacity: 1;
+        right: 50%;}
+    
 
 }
 
@@ -84,8 +93,10 @@ section#iphone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-105px, -170px);
+    transform: translate(-130px, -300px);
     background: no-repeat;
+    -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.497)); 
+filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.403));
         }
 
     section#redes-sociais {
@@ -95,7 +106,7 @@ section#iphone {
     }
     
     section#redes-sociais img {
-     width: 39px;
+     width: 50px;
      margin: 10px;
      border-radius: 50%;
      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
@@ -107,14 +118,37 @@ section#iphone {
         transform: translate(-3px, -3px);
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.615);
         transition: transform 0.5s, border 0.5s;
+            }
+
+    section#redes-sociais2 {
+        text-align: left;
+        padding: 3px;
+        transform: translate(0%, -100%);
+        
+    }
+    
+    section#redes-sociais2 img {
+     width: 50px;
+     margin: 10px;
+     border-radius: 50%;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
+    }
+    
+    section#redes-sociais2 img:hover {
+        border: 2px solid rgba(255, 255, 255, 0.608);
+        box-sizing: border-box;
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.615);
+        transition: transform 0.5s, border 0.5s;
     }
 
     nav {
         background-color: #11403b76;
-        width: 100%;
+        width: auto;
         padding: 20px;
         text-align: center;
-        padding-left: 10px;
+        
+      
     }
     
     nav a {
@@ -159,7 +193,7 @@ section#iphone {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     padding: 3px;
-
+    
 }
 
         #logo {
@@ -170,16 +204,18 @@ section#iphone {
             filter: contrast(1500%);
                     }
 #rodape {
-transform: translate(-12px, -85px);
+transform: translate(-16px, -65px);
 filter: brightness(60%);
 filter: contrast(100%);
 }
 
 #st {
-    transform: translate(-96px, -161px);
+    transform: translate(-116px, -291px);
 position: absolute;
 background-repeat: no-repeat;
 top: 50%;
 left: 50%;
 }
+
+
 

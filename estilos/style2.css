@@ -1,0 +1,169 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --fonte-destaque: 'Bebas Neue', cursive;
+    }
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    } 
+    
+    body {
+        height: 600px;
+        width: 100%;
+        background-color: rgb(15, 28, 24);
+        background: url('../Fundo\ 1.jpeg') no-repeat;
+        background-size: cover;
+        background-attachment: fixed;     
+               }
+    
+       html {
+        height: 600px;
+        width: 100%;
+       }
+    
+    main {
+        background: #11403b76;
+        transform: translate(52%, -612px);
+        border-radius: 1%;
+        padding-top: 2px;
+        background-size: cover;
+        width: 50%;
+        height: 700px;
+           }
+
+           nav {
+            background-color: #11403b76;
+            width: auto;
+            padding: 20px;
+            text-align: center;
+      
+          
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: rgb(225, 242, 241);
+            font-weight: bold;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.499);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            padding: 12px;
+            
+        }
+        
+        nav a.in {
+           border-right: 0.5px solid #11403b8a;
+           padding: 25px;
+           padding-bottom: 3px;
+           padding-top: 3px;
+           
+           
+        }
+        
+        nav a.sv {
+            border-right: 0.5px solid #11403b8d;
+            padding: 25px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            
+         }
+    
+              nav > a:hover {
+            color: #ffffff;
+            text-shadow: 1px 1px 5px rgb(255, 255, 255);
+            font-size: 20px;
+            transition: 0.5s;
+            padding: 25px;
+            }
+
+#titulo {
+    text-align: center;
+    padding: 50px;
+    color: rgb(5, 81, 5);
+    text-shadow: 1px 1px 1px #0adf4385;
+    font-family: 'Dancing Script', cursive;
+font-size: 50px;
+letter-spacing: 0px;
+word-spacing: 0px;
+color: #042926;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-bottom: 25px;
+}
+
+#frase {
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+font-size: 20px;
+letter-spacing: 0px;
+word-spacing: 0px;
+color: #042926;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+width: 70%;
+transform: translate(22%, 0px);
+text-shadow: 1px 1px 1px #0adf4385;
+line-height: 2.5;
+}
+
+.palavras {
+    background-color: #ffffff87;
+    width: 80%;
+    transform: translate(14%, 0px);
+    padding-bottom: 250px;
+   }
+
+div img {
+    transform: translate(30%, 0px);
+    width: 100%;
+    margin: 10px;
+    border-radius: 15%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
+        }
+
+#textogrid {
+    width: 50%;
+    color: rgb(5, 81, 5);
+    text-shadow: 1px 1px 1px #0adf4385;
+    font-family: 'Dancing Script', cursive;
+    font-size: 85%;
+word-spacing: 0px;
+color: #042926;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-bottom: 25px;
+padding-left: 100%;
+transform: translate(-30%, 0px);
+text-align: center;
+margin: 5%;
+line-height: 1.5;
+}
+
+.row:hover {
+    box-sizing: content-box;
+    transform: scale(120%);
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.615);
+    transition: transform 0.5s, border 0.5s;
+        }
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
