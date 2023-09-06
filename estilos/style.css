@@ -16,9 +16,7 @@ body {
     height: 600px;
     width: 100%;
     background-color: rgb(15, 28, 24);
-    overflow-x: hidden;
-    overflow-y: hidden;     
-   }
+       }
 
    html {
     height: 600px;
@@ -83,11 +81,10 @@ animation-fill-mode: forwards;
 }
 
 @keyframes fadeInAnimation {
-    0% {
-    opacity: 0.3;
-    }
-    100% {
-    opacity: 1;        }
+    from { opacity: 0;
+        left: 40%;}
+    to {opacity: 1;
+        right: 50%;}
     
 
 }
@@ -219,4 +216,6 @@ background-repeat: no-repeat;
 top: 50%;
 left: 50%;
 }
+
+
 
