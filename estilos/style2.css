@@ -133,7 +133,7 @@ div img {
         }
 
 #textogrid {
-    width: 10%;
+    width: 100%;
     color: rgb(5, 81, 5);
     text-shadow: 1px 1px 1px #0adf4385;
     font-family: 'Dancing Script', cursive;
@@ -147,7 +147,7 @@ font-variant: normal;
 text-transform: none;
 padding-bottom: 25px;
 padding-left: 100%;
-transform: translate(-30%, 0px);
+transform: translate(-35%, 0px);
 text-align: center;
 margin: 5%;
 line-height: 1.5;
